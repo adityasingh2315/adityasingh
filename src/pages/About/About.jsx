@@ -6,12 +6,7 @@ import ChooseSection from '../../components/ChooseSection/ChooseSection';
 import Person1 from '../../utils/images/person1.jpg';
 import Person2 from '../../utils/images/person2.jpg';
 import Person3 from '../../utils/images/person3.jpg';
-import Person4 from '../../utils/images/person4.jpg';
-import Person5 from '../../utils/images/person5.jpg';
-import Person6 from '../../utils/images/person6.jpg';
-import Person7 from '../../utils/images/person7.jpg';
-import Person8 from '../../utils/images/person8.jpg';
-import Person9 from '../../utils/images/person9.jpg';
+
 
 const persons = [
     {
@@ -25,31 +20,7 @@ const persons = [
     {
         id: 3,
         img: [Person3]
-    },
-    {
-        id: 4,
-        img: [Person4]
-    },
-    {
-        id: 5,
-        img: [Person5]
-    },
-    {
-        id: 6,
-        img: [Person6]
-    },
-    {
-        id: 7,
-        img: [Person7]
-    },
-    {
-        id: 8,
-        img: [Person8]
-    },
-    {
-        id: 9,
-        img: [Person9]
-    },
+    }
 ];
 
 function About() {
@@ -58,7 +29,25 @@ function About() {
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
                 <h1 className='text-center fw-semibold'>About Us</h1>
-                <p className='text-center w-75 mb-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error recusandae harum ullam repellat cum? Nisi unde, incidunt natus ut ratione dolore quasi at dolores molestias.</p>
+                <p className='text-center w-75 mb-5'>
+Hello and welcome to our team at [IIIT Campus Portal]! We are a dedicated group of individuals committed to [brief description of your mission or purpose].
+
+Meet Our Team:
+
+Aditya (Team Leader):
+Aditya is our enthusiastic and visionary team leader, guiding and inspiring us to achieve our goals with his leadership and strategic vision.
+
+Aman:
+Aman brings creativity and innovation to our team, with a keen eye for design and a passion for finding unique solutions to challenges.
+
+Adarsh:
+Adarsh is our dependable and detail-oriented team member, ensuring that every aspect of our project is meticulously planned and executed.
+
+Goutam:
+Goutam's technical expertise and problem-solving skills are invaluable assets to our team, as he navigates complex challenges with ease and precision.
+
+Abhinash:
+Abhinash is our dynamic and resourceful team member, always ready to tackle new challenges head-on and adapt to changing situations with agility..</p>
             </div>
         </header>
 
@@ -66,8 +55,14 @@ function About() {
             <div className="row">
                 <div className='col-lg-6 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
                     <h2 className='mb-4 mb-lg-5'>Study with us</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, sunt saepe fugit dolores error mollitia doloribus optio, recusandae aperiam, nihil eius rem eum eaque sequi. Earum perspiciatis laudantium at quo sapiente perferendis distinctio, voluptatum obcaecati ipsa, eos nesciunt saepe adipisci placeat ducimus! Dignissimos quaerat fugiat consequuntur tempora fuga eveniet nobis!</p>
-                    <p className='mb-4 mb-lg-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et quas ipsa assumenda eos veritatis nemo fuga dolore saepe eius, laborum earum magni id quae quidem tempore tempora consequuntur eveniet voluptatibus, suscipit atque, voluptatem blanditiis deleniti perferendis dolores. Architecto corporis sit suscipit labore modi sint facilis alias laboriosam facere et? Quo eum neque dolores iure, nam voluptates nesciunt quisquam modi maxime alias! Blanditiis vel dicta voluptates ab vero quia incidunt facilis ratione deserunt, inventore atque necessitatibus?</p>
+                    <p>!</p>
+                    <p className='mb-4 mb-lg-5'>At IIIT Lucknow students can pursue their academic passions, expand their horizons, and achieve their full potential. Whether you're a prospective student looking to embark on your educational journey or a lifelong learner seeking to enhance your skills, we invite you to join our community of dedicated scholars, researchers, and innovators.
+
+Why Choose Us?
+
+Academic Excellence: Our institution is renowned for its commitment to academic rigor, innovation, and excellence. Our faculty members are experts in their fields, and our programs are designed to challenge and inspire students to reach new heights of achievement.
+
+Cutting-edge Research: We are at the forefront of groundbreaking research and discovery across a wide range of disciplines. From pioneering scientific breakthroughs to innovative solutions for real-world challenges, our research endeavors are making a positive impact on society and shaping the future.</p>
                     <Link to="/contact">
                         <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Contact Us</button>
                     </Link>

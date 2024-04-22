@@ -6,31 +6,34 @@ function FaqAccordion() {
   return (
     <div className='faq-section'>
         <div className='container d-flex flex-column align-items-center'>
-            <h2 className='text-center text-capitalize mb-5'>Frequently asked questions</h2>
-            <p className='text-center mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat numquam rem expedita similique necessitatibus dolore magnam natus sit ipsa, quae neque accusantium placeat laudantium mollitia, reprehenderit alias incidunt, delectus obcaecati cupiditate sed omnis repudiandae eos! Quasi unde veritatis labore quibusdam.</p>
+            <h2 className='text-center text-capitalize mb-5'>Frequently asked Question </h2>
+            <p className='text-center mb-5'>here a quick faq for your help.</p>
             <Accordion defaultActiveKey="" flush>
                 <Accordion.Item eventKey='0'>
-                    <Accordion.Header>First question ?</Accordion.Header>
+                    <Accordion.Header>What is the recent year placement of IIIT Lucknow ? ?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab deserunt eaque nostrum voluptate, facilis ratione quo ducimus quod qui eius nobis quam temporibus similique fugit? Molestias, illo, maxime nulla aliquid ut pariatur corrupti aspernatur dolor assumenda quos officia eos?
+                        The average placement of IIIT Lucknow for the year 2023 is 30.5 lpa.
+                       
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='1'>
-                    <Accordion.Header>Second question ?</Accordion.Header>
+                    <Accordion.Header>Which is the nearest railway station to IIIT Lucknow? ?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab deserunt eaque nostrum voluptate, facilis ratione quo ducimus quod qui eius nobis quam temporibus similique fugit? Molestias, illo, maxime nulla aliquid ut pariatur corrupti aspernatur dolor assumenda quos officia eos?
+                        Charbagh Railwway Station.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='2'>
-                    <Accordion.Header>Third question ?</Accordion.Header>
+                    <Accordion.Header> What are the names of diff Cultural and technical club of IIIT Lucknow College? ?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab deserunt eaque nostrum voluptate, facilis ratione quo ducimus quod qui eius nobis quam temporibus similique fugit? Molestias, illo, maxime nulla aliquid ut pariatur corrupti aspernatur dolor assumenda quos officia eos?
+                        Goonj, Estrella, Crotonia, After Dark , Zypher, Axios.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='3'>
-                    <Accordion.Header>Fourth question ?</Accordion.Header>
+                    <Accordion.Header>How are the senior and junior interaction at IIIT Lucknow  ?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab deserunt eaque nostrum voluptate, facilis ratione quo ducimus quod qui eius nobis quam temporibus similique fugit? Molestias, illo, maxime nulla aliquid ut pariatur corrupti aspernatur dolor assumenda quos officia eos?
+                    Academic Assistance: Seniors  offer academic assistance to juniors, sharing study materials, notes, and resources, and helping them understand complex concepts or solve problems related to coursework.
+
+                        
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>

@@ -6,10 +6,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import Home from './pages/Home/Home';
 import Courses from './pages/Courses/Courses';
 import About from './pages/About/About';
+
 import Contact from './pages/Contact/Contact';
 import SignUp from './SignUp';
-import Login from './pages/Courses/Login';
-
+import Login from './Login';
 
 
 
@@ -44,15 +44,11 @@ function App() {
               <Nav.Link href='/contact' className='text-uppercase'>Get in touch</Nav.Link>
               {/* <button type='button' onClick={signUp} class='btn btn-outline-primary rounded-pill ms-2'>Sign Up</button> */}
               <Nav.Link href='/SignUp' className='text-uppercase'>SignUp</Nav.Link>
-              <Nav.Link href='/login' className='text-uppercase'>Login</Nav.Link>
-              
+              <Nav.link href='/login' className='text-uppercase'>login</Nav.link>
             </Nav>
           </Navbar.Collapse>
-
         </Container>
       </Navbar>
-     
-      
 
       <Routes>
         <Route path='/' element={<Home />} />
@@ -61,8 +57,8 @@ function App() {
         <Route path='/blog' element={<blog/>} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/SignUp' element={<SignUp/>}/>
-        <Route path='/login' element={<Login/>}/>
-        
+        <Route path='/Login' element={<Login/>}/>
+
       </Routes>
 
       <footer>
@@ -122,12 +118,10 @@ function App() {
                     <Link to="/contact" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>Get In Touch</li>
                     </Link>
-                    <Link to="/SignUp" className='text-decoration-none text-danger'>
-                      <li className='text-uppercase fw-semibold'>SignUp</li>
+                    <Link to="/Login" className='text-decoration-none text-danger'>
+                      <li className='text-uppercase fw-semibold'>Login</li>
                     </Link>
-                    <Link to="/login" className='text-decoration-none text-danger'>
-                      <li className='text-uppercase fw-semibold'>login</li>
-                    </Link>
+
                   </ul>
                 </div>
                 <div className='col-12 col-md-6 col-lg-7'>

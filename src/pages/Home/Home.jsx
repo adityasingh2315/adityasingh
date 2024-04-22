@@ -13,20 +13,20 @@ const blogs = [
     {
         id: 1,
         img: [Blog1Img],
-        title: 'Blog 1',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
+        title: 'COURSE MATERIAL',
+        description: 'Lecture Notes and Presentations: Download or view lecture notes, presentations, and supplementary materials shared by faculty members during class sessions. These resources help students reinforce their understanding of course concepts and prepare for assessments.'
     },
     {
         id: 2,
         img: [Blog2Img],
-        title: 'Blog 2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
+        title: 'EVENT CALENDER',
+        description: 'Since many are not aware of the daily or annually fest that happen in our college ,so through this student can have knowlegde about the fest that happens in college'
     },
     {
         id: 3,
         img: [Blog3Img],
-        title: 'Blog 3',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
+        title: 'INTERNSHIP OPPORTUNITY',
+        description: 'Since many student take reference from several website but not get the exact idea about the best suitable opportunity for them so through this they will get the idea about the best upcoming opportunity for them in the college '
     }
 ];
 
@@ -36,8 +36,8 @@ function Home() {
         <header className='h-100 min-vh-100 d-flex align-items-center text-light'>
             <div className='container d-flex flex-column align-items-center'>
                 <h2>Welcome To</h2>
-                <h1 className='text-center fw-semibold'>React University London</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.</p>
+                <h1 className='text-center fw-semibold'>IIITL CAMPUS PORTAL</h1>
+                <p>The "IIIT Campus Portal" is a comprehensive online platform designed to serve the diverse needs of students, faculty, staff, alumni, and other stakeholders associated with the Indian Institute of Information Technology (IIIT). It serves as a centralized hub for accessing a wide range of resources, services, and information related to academic, administrative, and extracurricular activities within the IIIT community.</p>
                 <div className='d-flex flex-column flex-sm-row align-items-center'>
                     <Link to="/courses">
                         <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Our Courses</button>
@@ -50,7 +50,7 @@ function Home() {
         </header>
 
         <div className="py-5">
-            <ChooseSection />
+            
         </div>
 
         <div className='py-5 bg-light'>
@@ -58,7 +58,7 @@ function Home() {
                 <div className='row d-flex align-items-center justify-content-around'>
                     <div className='col-lg-5'>
                         <h2 className='text-capitalize'>2024 start courses</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, placeat.</p>
+                        <p>Curriculum Outline: Explore the curriculum outline or syllabus for each course, outlining the topics covered, learning objectives, teaching methodologies, and assessment methods. Understand the sequence of topics and the progression of learning activities throughout the semester.</p>
                         <Link to="/courses">
                             <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Learn More</button>
                         </Link>
@@ -92,9 +92,9 @@ function Home() {
                         </div>
                     ))}
                 </div>
-                <Link to="/blog">
+                {/* <Link to="/blog">
                     <button type='button' className='btn btn-danger btn-lg mt-5'>Read More Blogs</button>
-                </Link>
+                </Link> */}
             </div>
         </div>
     </div>
